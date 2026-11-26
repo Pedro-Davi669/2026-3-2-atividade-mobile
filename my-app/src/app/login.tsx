@@ -137,7 +137,7 @@ export default function LoginScreen() {
         <View style={styles.demoCard}>
           <Text style={styles.demoTitle}>Trocar rapidamente de conta (demo):</Text>
           <View style={styles.demoRow}>
-            {['pedrodavi', 'mariasilva', 'joaosouza', 'pedrolima'].map((uname) => (
+            {['pedrodavi', 'alyssacavalcante', 'joaosouza', 'pedrolima'].map((uname) => (
               <Pressable
                 key={uname}
                 onPress={() => quickSwitch(uname)}

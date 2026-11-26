@@ -17,7 +17,7 @@ import type {
   User,
 } from '@/types/diatinf';
 
-const STORAGE_KEY = 'diatinf_x_mobile_state_v1';
+const STORAGE_KEY = 'diatinf_x_mobile_state_v2';
 
 type PersistedState = {
   users: User[];
@@ -157,7 +157,7 @@ export function DiatinfProvider({ children }: { children: React.ReactNode }) {
       }
       const found = users.find((u) => u.username.toLowerCase() === clean);
       if (!found) {
-        return { ok: false, error: 'Usuário não encontrado. Tente pedrodavi, joaosouza ou mariasilva.' };
+        return { ok: false, error: 'Usuário não encontrado. Tente pedrodavi, joaosouza ou alyssacavalcante.' };
       }
       if (password !== 'diatinf123' && password.length < 3) {
         return { ok: false, error: 'Senha inválida (dica: use diatinf123).' };

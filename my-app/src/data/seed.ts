@@ -14,9 +14,9 @@ export const INITIAL_USERS: User[] = [
     createdAt: minutesAgoIso(1200),
   },
   {
-    id: 'u-mariasilva',
-    username: 'mariasilva',
-    name: 'Maria Silva',
+    id: 'u-alyssacavalcante',
+    username: 'alyssacavalcante',
+    name: 'Alyssa Cavalcante',
     bio: 'Designer de produto e entusiasta de tipografia.',
     badge: 'Design',
     createdAt: minutesAgoIso(1100),
@@ -74,7 +74,7 @@ export const INITIAL_USERS: User[] = [
 export const INITIAL_POSTS: PostItem[] = [
   {
     id: 'p-1',
-    authorId: 'u-mariasilva',
+    authorId: 'u-alyssacavalcante',
     content: 'Acordando com uma ideia incrível para um novo projeto de design.\n#criatividade #diatinfx',
     createdAt: minutesAgoIso(2),
     likes: ['u-pedrodavi', 'u-pedrolima', 'u-anacosta'],
@@ -84,7 +84,7 @@ export const INITIAL_POSTS: PostItem[] = [
     authorId: 'u-pedrodavi',
     content: 'Versão mobile do Diatinf X rodando em React Native com Expo! Paleta DIATINF aplicada no app. #diatinfx #infoweb',
     createdAt: minutesAgoIso(8),
-    likes: ['u-mariasilva', 'u-joaosouza', 'u-pedrolima'],
+    likes: ['u-alyssacavalcante', 'u-joaosouza', 'u-pedrolima'],
   },
   {
     id: 'p-3',
@@ -98,14 +98,14 @@ export const INITIAL_POSTS: PostItem[] = [
     authorId: 'u-anacosta',
     content: 'Dica do dia: contraste de cor não é enfeite, é acessibilidade. Testem seus botões. #a11y',
     createdAt: minutesAgoIso(47),
-    likes: ['u-pedrodavi', 'u-mariasilva'],
+    likes: ['u-pedrodavi', 'u-alyssacavalcante'],
   },
   {
     id: 'p-5',
     authorId: 'u-joaosouza',
     content: 'Comecei o trabalho de POS hoje: um clone simplificado do X, mobile first. #diatinfx',
     createdAt: minutesAgoIso(60),
-    likes: ['u-pedrolima', 'u-mariasilva'],
+    likes: ['u-pedrolima', 'u-alyssacavalcante'],
   },
   {
     id: 'p-6',
@@ -129,7 +129,7 @@ export const INITIAL_COMMENTS: CommentItem[] = [
     postId: 'p-1',
     authorId: 'u-pedrolima',
     parentId: null,
-    content: 'Sensacional, Maria! Quero ver.',
+    content: 'Sensacional, Alyssa! Quero ver.',
     createdAt: minutesAgoIso(1),
   },
   {
@@ -151,7 +151,7 @@ export const INITIAL_COMMENTS: CommentItem[] = [
   {
     id: 'c-4',
     postId: 'p-1',
-    authorId: 'u-mariasilva',
+    authorId: 'u-alyssacavalcante',
     parentId: 'c-1',
     content: 'Assim que sair do rascunho eu posto aqui!',
     createdAt: minutesAgoIso(0),
@@ -159,7 +159,7 @@ export const INITIAL_COMMENTS: CommentItem[] = [
   {
     id: 'c-5',
     postId: 'p-2',
-    authorId: 'u-mariasilva',
+    authorId: 'u-alyssacavalcante',
     parentId: null,
     content: 'Adorei o contraste do navy com o dourado e laranja da DIATINF!',
     createdAt: minutesAgoIso(5),
@@ -217,11 +217,11 @@ export const INITIAL_COMMENTS: CommentItem[] = [
 export const INITIAL_RATINGS: RatingItem[] = [
   { postId: 'p-1', userId: 'u-pedrolima', value: 3 },
   { postId: 'p-1', userId: 'u-anacosta', value: 2 },
-  { postId: 'p-2', userId: 'u-mariasilva', value: 3 },
+  { postId: 'p-2', userId: 'u-alyssacavalcante', value: 3 },
   { postId: 'p-2', userId: 'u-joaosouza', value: 3 },
   { postId: 'p-3', userId: 'u-pedrolima', value: 2 },
   { postId: 'p-4', userId: 'u-joaosouza', value: 3 },
-  { postId: 'p-4', userId: 'u-mariasilva', value: 3 },
+  { postId: 'p-4', userId: 'u-alyssacavalcante', value: 3 },
   { postId: 'p-5', userId: 'u-pedrolima', value: 3 },
   { postId: 'p-6', userId: 'u-joaosouza', value: 3 },
   { postId: 'p-7', userId: 'u-pedrolima', value: 2 },
