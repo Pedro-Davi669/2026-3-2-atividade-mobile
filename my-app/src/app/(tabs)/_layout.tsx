@@ -15,6 +15,7 @@ export default function TabsLayout() {
         tabBarInactiveTintColor: DiatinfColors.steel,
         tabBarLabelStyle: styles.tabLabel,
         tabBarItemStyle: styles.tabItem,
+        tabBarIconStyle: styles.tabIconStyle,
       }}>
       <Tabs.Screen
         name="index"
@@ -95,6 +96,10 @@ const styles = StyleSheet.create({
   },
   tabItem: {
     borderRadius: 10,
+  },
+  tabIconStyle: {
+    width: 52,
+    height: 30,
   },
   iconPill: {
     paddingHorizontal: 14,

@@ -32,6 +32,6 @@ Versão mobile da rede social acadêmica **Diatinf X**, construída com **React 
 
 ### Frontend mobile no celular
 
-> Pendente: abra o aplicativo no celular via Expo Go (`cd my-app && npx expo start --tunnel`), capture a tela, salve como `prints/celular.png` e substitua este aviso por `![Aplicação React Native no celular](prints/celular.png)`.
+![Aplicação React Native Diatinf X no celular](prints/celular.png)
 
 ---
