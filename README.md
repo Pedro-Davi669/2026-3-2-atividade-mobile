@@ -12,14 +12,15 @@
 ---
 ## Relato da atividade
 
-Nome do aluno e seu link do linkedin e github
+**Aluno:** Pedro Davi de Lima Fernandes
+- **GitHub:** [Pedro-Davi669](https://github.com/Pedro-Davi669)
 
 ### Frontend mobile no navegador
 
-> Publica aqui o print da aplicação react native no navegador
+![Aplicação React Native no navegador](prints/navegador.png)
 
 ### Frontend mobile no celular
 
-> Publica aqui o print da aplicação react native no celular
+> Pendente: abra o aplicativo no celular via Expo Go (`cd my-app && npx expo start --tunnel`), capture a tela, salve como `prints/celular.png` e substitua este aviso por `![Aplicação React Native no celular](prints/celular.png)`.
 
 ---
